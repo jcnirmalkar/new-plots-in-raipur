@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.top-head>p {
+    color: white;
+}
+
+.top-head>img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
