@@ -1,16 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-
-
 .top2>img {
     position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;
+}
+
+/* --------------- variables -------------- */
+
+:root {
+    /* text-color */
+    --text-gray: #7f8c8d;
+    --text-white: #ecf0f1;
+    --text-dark: #192a56;
+    --box-shadow: 0px 0px 50px 0px rgb(0 0 0 /10%)
+        /* font-faimily */
+        --font-poppins:'Poppins', sans-serif;
+    /* image links */
+    --bg-cover: url('');
+    --brand-logo: url('');
+    --bg-img1: url('');
+    --bg-img2: url('');
+
 
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ---------------/variables--------------- */
+
+
+/* ---------------Globle classes--------------- */
+/* text-color */
+.jtext-white {
+    color: var(--text-white);
+}
+
+.jtext-white {
+    color: var(--text-gray);
+}
+
+.jtext-dark {
+    color: var(--text-dark);
+}
+
+/* gradient */
+
+/* font faimily */
+.jfont-poppins {
+    font-family: var(--font-poppins);
+}
+
+.jtext-center {
+    text-align: center;
+}
+
+.jtext-sm {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.jtext-md {
+    font-size: 1.5em;
+
+}
+
+.jtext-lg {
+    font-size: 2.2em;
+    line-height: 3rem;
+}
+
+.jtext-xl {
+    font-size: 3em;
+}
+
+.jtext-2xl {
+    font-size: 5em;
+}
+
+.jfont-bold {
+    font-weight: bold;
+}
+
+.jflex {
+    display: flex;
+}
+
+.jflex-row {
+    flex-direction: row;
+
+}
+
+.jflex-column {
+    flex-direction: column;
+}
+
+.jflex-wrap {
+    flex-wrap: wrap;
+}
+
+.jflex-initial {
+    flex: 0 1 auto;
+}
+
+.jflex-grow {
+    flex-grow: 1;
+}
+
+.jjustify-center {
+    justify-content: center;
+}
+
+.jtext-upercase {
+    text-transform: uppercase;
+}
+
+.jcontainer {
+    width: 100%;
+}
+
+.jcontainer-fluid {
+    width: 98%;
+}
+
+/* ---------------/Globle classes--------------- */
