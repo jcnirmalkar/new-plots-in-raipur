@@ -8,6 +8,67 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
+    <style>
+        .gp {
+            width: 100wh;
+            height: 100vh;
+            /* background-color: aqua; */
+            color: black;
+        }
+
+        .parent {
+            width: 80vw;
+            height: auto;
+            margin: auto;
+            /* background-color: #c77ccb; */
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .child-1 {
+            /* background-color: rgb(15, 151, 58); */
+        }
+
+        .child-2 {
+
+            background-color: rgb(35, 167, 185);
+        }
+
+        .child-3 {
+            background-color: rgb(48, 70, 215);
+        }
+
+        h1 {
+            font-size: 4rem;
+            padding: 10px;
+            text-align: center;
+            color: black;
+
+        }
+
+        p {
+            font-size: xx-small;
+        }
+
+        .Ku {
+            /* when using flex:1; no need to defin width */
+            flex: 1 1 300px;
+            /*  300px likha hai wo width hai*/
+            /* width: 300px;*/
+            height: 300px;
+            /* box-shadow: 0 0 20px rgb(49, 43, 43); */
+            margin: 3%;
+            transition: all 2s linear;
+            text-align: center;
+        }
+
+        @media (max-width:768px) {
+            .gp {
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
 <body style=>
@@ -43,7 +104,7 @@
                 <a href=""><img src="img/royal-project.png" alt=""></a>
             </div>
             <!-- shree radhe syam -->
-            <div class="pt-8 px-8 top2 flex justify-center items-center text-center font-bold text-white w-screen">
+            <div class="pt-8 px-8 flex justify-center items-center text-center font-bold text-white w-screen">
                 <a href=""><img src="img/radhe-project.png" alt=""></a>
             </div>
         </div>
@@ -57,7 +118,36 @@
         </div>
         <!-- blogs -->
         <div class="pt-8 px-8 top2 flex justify-center items-center text-center font-bold text-white w-screen">
-            <a href=""><img src="img/radhe-project.png" alt=""></a>
+            <div class="gp">
+                <h1>Why Raipur</h1>
+                <div class="parent">
+                    <div class="child-1 Ku">
+
+                        <p>Raipur is a city that loves peace and quiet. It is developed amidst nature and is a rapidly
+                            developing city. It&#39;s the capital of Chattisgarh and has recently gained a lot of
+                            traction for its
+                            fundamentally strong and growing economy. It is one of the top 10 urban cities in India
+                            which
+                            offers several opportunities for economic growth. It is considered by many to be an
+                            extremely favorable investment destination given its potential to grow, especially when it
+                            comes to plots in Raipur.
+                            In recent years, Raipur has experienced monumental infrastructural development which
+                            reflects in the real estate market. There are several new projects that have been announced
+                            by the central government in Raipur like mining and manufacturing which has drawn even
+                            more people towards it. Although Raipur is developing at a fast pace, the real estate prices
+                            are fairly budget-friendly which is yet another reason for people to be drawn to this
+                            wonderful
+                            city. The cost of living a luxurious life in Raipur is fairly affordable too for the
+                            majority of the
+                            population. The continuous demand for properties in Raipur might lead to an increase in real
+                            estate prices in the future. Grab this golden opportunity and provide Raipur a chance to
+                            give
+                            you amazing returns on real estate investment here.</p>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
 
 
